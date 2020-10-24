@@ -1,0 +1,53 @@
+.carousel {
+	width: 100%;
+	height: 440rpx;
+}
+
+/* 热门商品 */
+.super-hot {
+	margin-top: 12rpx;
+	padding: 20rpx;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.hot-title-wapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	direction: row;
+}
+.hot-ico {
+	width: 30rpx;
+	height: 30rpx;
+	margin-top: 15rpx;
+}
+.hot-title {
+	font-size: 20px;
+	margin-left: 20rpx;
+	font-weight: bold;
+}
+.hot-movies {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	/* padding: 0upx, 10upx, 10upx, 10upx; */
+}
+.hot-movies-single{
+	width: 350rpx;
+	height: 220rpx;
+	margin: 10rpx;
+}
+.guess-u-like{
+	padding: 5rpx;
+}
+

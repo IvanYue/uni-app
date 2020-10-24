@@ -1,0 +1,12 @@
+
+.hot{
+	width: 100%;
+	/* 文字不换行 */
+	white-space: nowrap;
+}
+.signle-poster{
+	display: inline-block;
+	margin-left: 20rpx;
+}
+
+

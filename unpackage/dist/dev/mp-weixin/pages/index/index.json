@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "电影预告",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "hello-comp": "/components/helloComp",
+    "hot-goods": "/components/hotGoods",
+    "hot-goods-view": "/components/hotGoodsView",
+    "goods-item": "/components/GoodsItem"
+  }
+}

@@ -1,0 +1,1 @@
+<scroll-view class="page-block hot" scroll-x="true"><block wx:for="{{hotGoodsList}}" wx:for-item="goods" wx:for-index="gindex"><view class="signle-poster"><hot-goods vue-id="{{'58c45dc6-1-'+gindex}}" goods="{{goods}}" bind:__l="__l"></hot-goods></view></block></scroll-view>

@@ -1,0 +1,1 @@
+<view><view class="poster-wapper"><image class="poster" src="{{goods.picUrl}}"></image><view class="movie-name">{{''+goods.name+''}}</view><trailer-stars vue-id="c6bc527c-1" innerScore="5.1" showNum="1" price="{{goods.retailPrice}}" bind:__l="__l"></trailer-stars></view></view>

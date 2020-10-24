@@ -1,0 +1,69 @@
+
+.good-img {
+	height: 240rpx;
+	width: 180rpx;
+	background-color: #F7F7F7;
+	border-radius: 13rpx;
+}
+.guess-u-like {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	margin: 10rpx;
+}
+.movie-desc {
+	width: 340rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding: 10rpx;
+}
+.movie-title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.movie-info {
+	font-size: 13;
+	color: #808080;
+}
+.movie-oper {
+	width: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+
+	border-left: dashed 2px;
+	border-left-color: #C8C7CC;
+}
+.praise-ico {
+	width: 40rpx;
+	height: 40rpx;
+}
+.praise-me {
+	font-size: 14;
+	color: #f3ab2a;
+}
+.animation-opacity {
+	font-weight: bold;
+	opacity: 0;
+}
+
