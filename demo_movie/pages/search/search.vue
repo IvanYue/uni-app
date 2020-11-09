@@ -65,7 +65,8 @@
 				_this.getGoodsList();
 			},
 			showGoodsDetail(e){
-				var goodsId = e.currentTarget.dataset.dataId;
+				console.log(e)
+				var goodsId = e.currentTarget.dataset.dataid;
 				uni.navigateTo({
 					url:'../goods/goods?goodsId='+goodsId
 				})

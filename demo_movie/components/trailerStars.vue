@@ -35,6 +35,7 @@
 		},
 		// 组件声明周期，组件创建完成后被调用
 		created() {
+			console.log(this.innerScore);
 			var tempScore = 0;
 			if (this.innerScore != null && this.innerScore != undefined && this.innerScore != "") {
 				tempScore = this.innerScore;

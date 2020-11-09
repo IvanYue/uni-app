@@ -1,6 +1,6 @@
 <template name="hotGoods">
 	<view class="">
-		<view class="poster-wapper">
+		<view class="poster-wapper" @click="goodsDetail" :data-goodsId='goods.id'>
 			<image :src="goods.picUrl" class="poster"></image>
 			<view class="movie-name">
 				{{goods.name}}
@@ -35,6 +35,15 @@
 		},props:{
 			goods:{
 				String:Map
+			}
+		},
+		methods:{
+			goodsDetail(e){
+				var goodsId = e.currentTarget.dataset.goodsid;
+				console.log(goodsId)
+				uni.navigateTo({
+					url:'../goods/goods?goodsId='+goodsId
+				})
 			}
 		}
 	}
